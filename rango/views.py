@@ -10,5 +10,5 @@ def index(request):
     
 def about(request):
     
-    context_dict = {'your_name': '<your-name>'}
-    return render(request, 'rango/about.html', context=context_dict)
+    context_dict = {'boldmessage': 'here is the about page.'}
+    return render(request, 'rango/about.html', context=context_dict)  
